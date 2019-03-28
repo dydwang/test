@@ -4,7 +4,7 @@
        <div class="boxOne">
            <router-link to="#"><span>主页</span></router-link>
            <a href="#"></a>
-           <router-link to="#"><span>推荐</span></router-link>
+           <router-link to="tuijian"><span>推荐</span></router-link>
        </div>
         <zouMa></zouMa>
         <HappyScroll :min-length-h="20">

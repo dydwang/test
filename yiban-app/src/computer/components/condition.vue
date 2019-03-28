@@ -23,9 +23,9 @@
         name: "condition",
         data(){
             return{
-                sports:["旅游","篮球","足球","乒乓球","游泳","象棋","画画",
+                sports:["全部","旅游","篮球","足球","乒乓球","游泳","象棋","画画",
                     "爬山","网球","跳舞","健身","排球"],
-                times:["1天内","2天内","3天内","5天内","1周内","1月内"]
+                times:["全部","1天内","2天内","3天内","5天内","1周内","1月内"]
             }
         },
         methods:{
@@ -38,7 +38,8 @@
             },
             timeRange(time){
                 let datetime
-                if(time==="1天内") datetime=24
+                if(time==="全部") datetime=""
+                else if(time==="1天内") datetime=24
                 else if(time==="2天内") datetime=24*2
                 else if(time==="3天内") datetime=24*3
                 else if(time==="5天内") datetime=24*5

@@ -94,7 +94,7 @@ export default {
         this.getsport=sport
     },
     displaySport(listsport){
-      if(this.getsport==="") return true
+      if(this.getsport===""||this.getsport==="全部") return true
       else if(listsport===this.getsport) return true
     },
       getTime(time){

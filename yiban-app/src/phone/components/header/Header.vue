@@ -13,7 +13,7 @@
     }
 </script>
 
-<style scoped lang="scss">
+<style scoped >
     .headBox{
         width: 100%;
         height: 7rem;
