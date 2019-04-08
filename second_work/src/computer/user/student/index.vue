@@ -1,6 +1,6 @@
 <!--*********  学生主页  *********-->
 <template>
-    <div style="width: 100%;height: 100%;margin-top: 10px">
+    <div style="width: 100%;height: 100%;margin-top: 10px;" >
         <router-view />
         student   啊啊啊啊
     </div>

@@ -6,6 +6,7 @@ import Menu from "./phone/components/main/menu.vue";
 import tuijian from "./phone/components/main/tuijian.vue";
 import newActive from "@/computer/newActive";
 import pActive from "./phone/components/main/pActive";
+import myInformation from "@/computer/components/myInformation"
 Vue.use(Router);
 
 export default new Router({
@@ -20,6 +21,11 @@ export default new Router({
             path: "/",
             name: "home",
             component: Home
+        },
+        {
+            path: "/myInformation",
+            name: "myInformation",
+            component:myInformation
         },
         {
             path: "/HeadBox",

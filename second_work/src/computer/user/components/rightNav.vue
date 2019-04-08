@@ -1,5 +1,5 @@
 <template>
-    <el-col :span="4" >
+    <el-col :span="4" style="height: 1000px;border-right:0.1px solid #f1e7e7;border-top:0.1px solid #f1e7e7;position: fixed">
         <el-menu
                 default-active="2"
                 class="el-menu-vertical-demo"
@@ -11,7 +11,6 @@
 
                 <i class="el-icon-setting"></i>
                 <span slot="title">{{navigation.name}}</span>
-
             </el-menu-item>
         </el-menu>
     </el-col>
@@ -42,11 +41,9 @@
 
                     let beforeFontcolor =document.getElementById(this.clickFont)
                     beforeFontcolor.style.color="rgb(102, 118, 134)";
-                    console.log(beforeFontcolor.style.color +"be---------------------------")
                 }
                 fontcolor.style.color="#409EFF";
                 this.clickFont=index
-                console.error( fontcolor.style.color+"now++++++++++++++++++++++++++")
                 const {$router} =this
                 $router.push(interfaces)
             }

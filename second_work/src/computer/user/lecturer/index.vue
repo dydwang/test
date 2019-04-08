@@ -1,9 +1,9 @@
 <!--//********  讲师首页  ***************-->
 <template>
     <div style="width: 100%;height: 100%;margin-top: 10px">
-        <rightNav :listNavigation="listNavigation"></rightNav>
+        <rightNav :listNavigation="listNavigation" ></rightNav>
 
-        <router-view ></router-view>
+        <router-view style="margin-left: 20%" ></router-view>
     </div>
 </template>
 
@@ -17,7 +17,6 @@
                     {name:"申请教室",interface:"lecturer_applyClassroom"},
                     {name:"变课",interface:"lecturer_changeTimetable"},
                     {name:"我的工作量",interface:"lecturer_lecturerWorkload"},
-
                 ],
             }
         },

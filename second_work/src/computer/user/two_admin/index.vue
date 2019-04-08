@@ -1,9 +1,9 @@
 <!--/*******  二级管理员首页  **********-->
 <template>
     <div style="width: 100%;height: 100%;margin-top: 10px">
-        <rightNav :listNavigation="listNavigation"></rightNav>
+        <rightNav :listNavigation="listNavigation" ></rightNav>
 
-        <router-view ></router-view>
+        <router-view  style="margin-left: 20%"></router-view>
     </div>
 </template>
 

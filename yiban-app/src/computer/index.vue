@@ -1,6 +1,7 @@
 <template>
   <div>
       <headTitle></headTitle>
+    <router-link to="two" >two</router-link>
     <el-carousel
       indicator-position="outside"
       style="margin-top: 90px;margin-left: 250px;
