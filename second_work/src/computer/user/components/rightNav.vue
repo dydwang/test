@@ -1,5 +1,5 @@
 <template>
-    <el-col :span="4" style="height: 1000px;border-right:0.1px solid #f1e7e7;border-top:0.1px solid #f1e7e7;position: fixed">
+    <el-col :span="4" style="height: 500px;border-right:0.1px solid #f1e7e7;border-top:0.1px solid #f1e7e7;position: fixed">
         <el-menu
                 default-active="2"
                 class="el-menu-vertical-demo"

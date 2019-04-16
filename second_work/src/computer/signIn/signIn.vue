@@ -92,7 +92,7 @@
             <el-button type="primary" @click="protectLogin('formInline')" style="width: 255px;
                        margin-left: 70px;margin-top: -10px"  :disabled="isDisable">登录
             </el-button>
-            <span>（测试，不需要账号密码,需要验证码）</span>
+            <span>（测试，不需要账号密码,需要验证码+++）</span>
         </el-form>
     </div>
     </div>

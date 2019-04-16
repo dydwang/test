@@ -1,60 +1,110 @@
   <!--********  教师个人工作表组件   *******-->
 <template>
-    <el-table
-            :data="tableData"
-            style="width: 80%"
-            :row-class-name="tableWorkload" >
-        <el-table-column type="index" label="序号"></el-table-column>
-        <el-table-column prop="curriculumName" label="课程名称" ></el-table-column>
-        <el-table-column prop="curriculumNum" label="课程编号"  ></el-table-column>
-        <el-table-column prop="class" label="班级" ></el-table-column>
-        <el-table-column prop="curriculumNature" label="独立/课带" ></el-table-column>
-        <el-table-column prop="executiveHours" label="执行学时"  ></el-table-column>
-        <el-table-column prop="nowHours" label="已上学时"  ></el-table-column>
-        <el-table-column prop="repetitions" label="重复次数" ></el-table-column>
-        <el-table-column  label="工作量=执行学时*(1+1*重复次数)">
-            <template slot-scope="scope">
-                {{tableData[scope.$index].executiveHours*(1+tableData[scope.$index].repetitions)}}
-            </template>
-        </el-table-column>
-    </el-table>
+    <el-form    label-width="100px" class="demo-ruleForm" label-position="left" size="mini">
+        <el-form-item   :label=tableName[0].label label-width="80px">
+            <el-select  :value="tableForm.teacher.label"  disabled></el-select>
+        </el-form-item>
+
+        <el-form-item   :label=tableName[1].label label-width="80px">
+            <el-select  :label="tableForm.starWeek.label" v-model="starNum" @change="numChange(starNum)">
+                <el-option  v-for="(num,index) in 18" :key="index" :label=num :value=num ></el-option>
+            </el-select>
+        </el-form-item>
+
+        <el-form-item   :label=tableName[2].label label-width="80px">
+            <el-select  :value="tableForm.endWeek.label" v-model="endNum"  >
+                <el-option  v-for="(num,index) in endStarNum" :key="index" :label=num :value=num ></el-option>
+            </el-select>
+        </el-form-item>
+
+        <el-form-item   :label=tableName[3].label label-width="80px">
+            <el-select  :value="tableForm.weekNum.label"  disabled ></el-select>
+        </el-form-item>
+
+        <el-form-item   :label=tableName[4].label label-width="80px">
+            <el-select  :value="tableForm.sectionsNum.label"  disabled ></el-select>
+        </el-form-item>
+
+        <el-form-item   :label=tableName[5].label label-width="80px">
+            <el-select  :value="tableForm.SDWeek.label"  disabled ></el-select>
+        </el-form-item>
+
+        <el-form-item   :label=tableName[6].label label-width="80px">
+            <el-select  :value="tableForm.courseLength.label"  disabled ></el-select>
+        </el-form-item>
+
+        <el-form-item   :label=tableName[7].label label-width="80px">
+            <el-select  :value="tableForm.classroom.label"  disabled ></el-select>
+        </el-form-item>
+
+    </el-form>
 </template>
 
-<style>
-    .el-table .warning-row {
-        background: oldlace;
+<style >
+    .el-input__icon{
+        height: 150%;
     }
-
-    .el-table .success-row {
-        background: #f0f9eb;
+    .el-input__inner{
+        height: 20px;
     }
 </style>
 
-<script>
-    export default {
-        methods: {
-            tableWorkload({row, rowIndex}) {
-                if (rowIndex === 1) {
-                    return 'warning-row';
-                } else if (rowIndex === 3) {
-                    return 'success-row';
-                }
-                return '';
-            },
-        },
-        data() {
-            return {
-                tableData: [{
-                    curriculumName: '王小虎',    //课程名称
-                    curriculumNum: '1523059',   //课程编号
-                    class:'网工171',           //班级
-                    curriculumNature:'独立',  //课程性质
-                    executiveHours:36,       //执行学时
-                    nowHours:12,            //已上学时
-                    repetitions:2,         //重复次数
-                    }]
-            }
+  <script>
+      export default {
+          data() {
+              return {
+                  starNum:"",
+                  endNum:"",
+                  endStarNum:[],
+                  tableForm:{
+                      teacher:{value:"ssssss", label:"小名"},
+                      starWeek:{value:"222", label:"2"},
+                      endWeek:{value:"ss", label:"10"},
+                      weekNum:{value:"ss", label:"xx"},
+                      sectionsNum:{value:"ss", label:"xx"},
+                      SDWeek:{value:"ss", label:"xx"},
+                      courseLength:{value:"ss", label:"xx"},
+                      classroom:{value:"ss", label:"xx"},
+          },
+                  tableName:[
+                      {label:"上课教师",value:"teacher"},
+                      {label:"起始周",value:"starWeek"},
+                      {label:"结束周",value:"endWeek"},
+                      {label:"星期几",value:"weekNum"},
+                      {label:"第几节",value:"sectionsNum"},
+                      {label:"单双周",value:"SDWeek"},
+                      {label:"课程长度",value:"courseLength"},
+                      {label:"教室",value:"classroom"},
+                      //"起始周","结束周","星期几","第几节","单双周","课程长度","教室"
+                      ],
+              };
+          },
+          methods: {
+              numChange(starNum){
+                  console.error("***************************************")
 
-        },
-    }
-</script>
+                    for(;starNum<19;starNum++){
+                        this.endStarNum.push(starNum)
+                        console.error("***************************************")
+                    }
+              },
+              // tableform(tablename){
+              //     for(let i=0;this.tableName.length;i++)
+              //     {
+              //         if(tablename==="上课教师"){return this.tableForm.teacher.label}
+              //         if(tablename==="起始周"){this.starNum= this.tableForm.starWeek.label}
+              //         if(tablename==="结束周"){return this.tableForm.endWeek.label}
+              //         if(tablename==="星期几"){return this.tableForm.weekNum.label}
+              //         if(tablename==="第几节"){return this.tableForm.sectionsNum.label}
+              //         if(tablename==="单双周"){return this.tableForm.SDWeek.label}
+              //         if(tablename==="课程长度"){return this.tableForm.courseLength.label}
+              //         if(tablename==="教室"){return this.tableForm.classroom.label}
+              //     }
+              // }
+          },
+          mounted(){
+              this.starNum=this.tableForm.starWeek.label
+              this.endNum=this.tableForm.endWeek.label
+          }
+      }
+  </script>

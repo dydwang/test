@@ -7,6 +7,8 @@ import tuijian from "./phone/components/main/tuijian.vue";
 import newActive from "@/computer/newActive";
 import pActive from "./phone/components/main/pActive";
 import myInformation from "@/computer/components/myInformation"
+import two from "@/computer/components/two"
+
 Vue.use(Router);
 
 export default new Router({
@@ -26,6 +28,11 @@ export default new Router({
             path: "/myInformation",
             name: "myInformation",
             component:myInformation
+        },
+        {
+            path: "/two",
+            name: "two",
+            component:two
         },
         {
             path: "/HeadBox",
