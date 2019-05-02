@@ -2,10 +2,455 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cffaacdf-f04a-4b0c-bf97-d233de07a342" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/phone/component/photo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/phone/main/cjcg.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/phone/main/sss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../course/src/views/admin/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../course/src/views/college/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../course/src/views/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../course/src/views/components/pageTitle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../course/src/views/teacher/classroom/res.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../course/src/views/teacher/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/assets/icon/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/assets/icon/demo_index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/assets/icon/iconfont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/assets/icon/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/assets/icon/iconfont.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/assets/icon/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/assets/icon/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/assets/icon/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/assets/icon/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/data/constData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/data/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/mock/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/admin/college/adminCollege.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/admin/examine/addCurriculumExamine.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/admin/examine/adminExamine.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/admin/home/adminHome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/admin/notice/adminNotice.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/admin/plan/adminPlan.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/admin/room/adminRoom.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/admin/teacher/adminTeacher.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/admin/work/adminWork.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/college/course/collegeCourse.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/college/examine/Table.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/college/examine/classroomExamine.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/college/examine/collegeExamine.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/college/home/collegeHome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/college/notice/collegeNotice.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/college/plan/collegePlan.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/college/room/collegeRoom.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/college/work/collegeWork.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/changeWork/adjustCurriculum.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/changeWork/changeInformation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/changeWork/repairCurriculum.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/changeWork/stopCurriculum.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/changeWork/teacherChangeWork.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/classroom/classroomApplication.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/classroom/teacherClassroom.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/components/myInformation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/home/teacherHome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/notice/teacherNotice.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/plan/each-kb.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/plan/teacherPlan.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/src/views/teacher/work/teacherWork.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../course-work/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../yiban-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../yiban-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/068f9b69dcddf422608837c25fe12b14.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/06ca1b77da828428670f90ae0e051571.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/08bc21cd885f606ee3550c3099700064.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/0c4e52e48e79832d905cd1fa76781e49.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/14433f471bd37e6c96de305ae7ddeaf6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/168436c648f2a4b6bda64e6d1281aeea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/1bafa5c1a15f69145fd86ab971134478.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/1bf46646ab03487e25db0baf70d4a43f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/1cc1b66bc9a82b4aeedc70dac489fa8e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/1e7d5ad97a386d987bfdccb99a8c0840.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/211556fe606e988e0a9f8d71e66ca34f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/2920412a39482d79ddee7e330496ee8a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/31cf357c528db9e35b0c07b0cc10b245.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/345c60e2e757bc57fe2342055a59a252.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/35a9f2613b8a3b8ea0b12f7916e8713f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/372155d068c5a0a93801e944dc544464.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/3846fe7bb6b60991674bf9cf58d16ec0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/3be359f448c2ab5df570fe5d4bb22e2a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/3dbabad0b43dd8690d79db98dee8270b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/44666d89c51973a955de0984b33b42f7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/522ba89f879f4485ef2ef3c0681d875d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/52d407ca95b00099bbf2112fef5a041b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/5320fa7ccdf47e1977b5bea5e31f1189.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/580decd11fdf0c13b3e9188cdb09b8bc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/5cad6352b27ff1bcad4ddb34eb2a309b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/6302ce06700c6cc73c1ef1a4db5d2a2a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/633f61a99f7a433216cac042ed6681c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/68771b25fef418490d303e6d31ed00ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/6a8dfda5a5db71911100d0e0d8c15001.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/6e770b6c1ea6314b21c9a80c18a8b72f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/7455ca4848480739487aac9a76708463.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/7b20f5ae38c18183d57ef65442f94546.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/7b3d197fc59edfa06c7164289d0b44ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/8068fa65d48af14c0ae05e08cf44c66d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/892792acf069cfb61d02af13826fbcb1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/8a683907d37589cfadd3e7d57a6b25b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/8bdc57450d29342be9d04536cc135f17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/8bf110a0935531c2fa5edf3ce51a5813.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/8c545e49906c94767683f2c5c49d7a00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/8f75de01bb13581ed8c1ce1f5bc20728.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/9225820963f2d5a14f3b737a0a74db63.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/a3a6a295810d1fd6c3f08e9fd9ac97a5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/ac290fb81cdaca353ce7f90e0189bbca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/b0d3284cde7e2e0ec65322fe6bfe5d80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/b2c53848d8ac4e751bc0d84fb11bae8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/b4acf59259fc743e7ecdba2ea569834c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/b532f0ff82a3620e8937e1df45686a7b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/bbd9c3063f8543a33ab5e70aed0ba670.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/bc62fa1642ea99a2d8c82c5d4dce2354.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/c10f2e9fc624d1a801c263daaa0c4469.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/c2bbc967edec3602a9bd9d219555803b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/d4bf212fc68417840f68cee8c5748160.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/dc62f001dca013b3e389c08c4a50d5a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/dc649c886d5b004cacce07bb939c9f82.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/de11240044b3b503dd096a3d873ea788.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/e0a21758043114e559701222d0ef360a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/e11b77ce8f8ab888e59a2cd90026b548.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/e9ea2f911320ff8f0981831efca4647a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/f976dc1398fb3ee32a78bc5542a2a67b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/babel-loader/f99801b9b2a9f92ece222ed621ef17c2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/070eeccb204c57068a50dc01cc6dc17af883e4d1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/0d98428b1791872c4d7c9849f0ea29260b2d8f1e.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/1942d99ee2ce430e3b95b5f209362eff22099f70.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/235b20e41f6a45de151fbc9e0d5e64c99cb785bb.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/29fb57b261f169a54c05a0c9796a6945ea80515f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/2c45a25a5ab23042d1c5c45fe56f702456a4ec11.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/2e2857cf0d321de7bcdd5ff75750242a67032025.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/2e4794743eb7521e53ae32f3f956840d7c4ef9e6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/3407b0e6dd8f898681c6eadae31747e9e8a5a65d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/36127e58b307498aa4f3c4d36bcdb6af4011c736.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/3656ade9cc2edb19ef65441b6fec266a94a313f6.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/379e7c1ae93bae30e559be9abd99bf8c19e68b8c.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/38cc14e162cf029b7cd1b2a5c60485fddb2a3ec1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/396736922b561b8c31d5269428401e956b2f8256.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/3dd3bbfd56738faf71c5eeeeeac4d3de5cf84cd8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/41912adaf1caea9fde5311e01262ebbf0fcf3d26.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/427a0e0d6a10c88bfccfbc5172be652e879ff1ca.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/48e3f1e587999a98fd566b951f913d7ed6301ded.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/4b56fce86731357d1256236878917db60954a142.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/4b7031c05e65ea15634304fb710dac28e3a6a2e8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/50bb6690b20554ddd88ff92acb6c8e3d3e73389f.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/52d798550d0a324c7fa8d18f21e0958ae9fa7976.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/5730d99323b5afb6a8112940091473c2bbc6d11a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/59348a7e89a129b9cd540301317bb6c45ea067f8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/5ed9471cdaac93b051f7f17fc91726f7a26dc324.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/5fff21e52f432e81b18c2fba32125e74f5cdc156.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/67fbd6ef38e3bf0322e69c776323314ba4194d7b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/6896897510d701430ceff739e7797d6793ee4d67.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/6e38495d35f142e74a6fbf719e7b796c9ddb8714.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/7ca974f990d7204f6f4acd5b4a0597d73cf75d86.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/8065e84634b0c258729fe0ea3bc52809d2f9fa65.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/83df7db15ed227e870140236d8c4a509b961bb06.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/884cc09a551868a1896659574c08c5d4a985e1b1.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/9136de21c023ac8939c14312384784c556d81e77.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/98626c8430ee5e7454c78d8fa6cc30b82e239e2a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/a0634414c54f21039d4fdb8613c320683463fe16.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/ae7f79ec802589fef73c1eeedc3f93f0d85d4d71.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/b0ae4b9d37f766987ee0de658862df67ddeda36d.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/b6eb7c1189f193de19dfefeae34175873849b855.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/bcbd2fbed80552f298b44927d2c8b35910a9a6b9.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/be7a0bb27cfa2a8e074d3aa4107bfd72cdac07cf.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/c34608b28aeddb628b310448c5bedcee0c9e7a11.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/c72210232f97d25dec0dc5e7073d0484254c651a.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/d088f72261028a0993c7a03115dd4c14dbceaf5b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/d5bf5ffb416d9cb570e313029d91b36401393781.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/d829ad7bdad5ef51c30570c060e8fdbcf02e2a31.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/db2fd056db163b14c86722b93813f35b9b461af0.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/df6816f07b5d9c812de9d2081065af39174304ac.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/e1945cf02dbbe99a249e4e6d8a70e681171f15bf.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/f1b7346cc6fab92e03b67c2053e53034e3fb5ff8.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/f581e99c31dec111f63ab4c95fbd683c47905435.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/f72de3d7ed82e5f5712227e850762a122338c75b.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/f98a0909c8ce9e534daef332c3d63e3d9bf8d7cd.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/eslint-loader/fe12bb37aa50bad6f5cb2a68f897549b4dded6dc.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/11/ef/48aa060ab0c02bd4dfb6ecaf525c94343aa0309be89a3256479544c6bf453cd0c9f6c8f101b1e77ee1b94c52fc06fd39efa6406fc78d0e1a17f9e75beab7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/28/48/923ad1c7ccb870b28d7c450579342fd76eea8f4c481d1e18cc9f48c097676c0073a5f5a23eaf4de5a70ecc05a5fcc37e1be0e257a44292e4d12eb3046837" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/33/49/bb3512421856481da924dbcce177335506132e633856b48a86945b93470261ffdc938530546ab2906b2c97d4e39fde3865e72965404fd4f5e4c6a629a611" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/8e/02/637de9456ed082affdf25f0f5555481b66813301732ebc3567c036d71cd41b5b705cd65306cdec5b47a50705fa75ae1aeae4d91fcb031ea0634bbf0301c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/b0/d1/b41d9b7373ea0c3922b18a0bb69730db72f1cabcdc17b14b5ed1958de428531bd931563d70965a1255e47d5c1133d665a646277de3af04ed911118bcca3a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/d0/a4/7f3dae0604e8cded408272d1d8cf92f3d81454deef026ce327ae4447052fdc6b38265058707ac7cf18429385a065812b23f9ccba9308fd9a0ea23302f907" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/index-v5/57/84/e62c15898cb398e078334fe767cc4c7d489d5401dad445d0fcee9139ee32" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/index-v5/75/a4/c0c1d7dea9fe623f48c9c4ca028cef6f2949bf5285a40e313bbdc653edfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/index-v5/97/ff/29d1f44e85a6bce0084cc94295139ad5d2b51bdcaeaeaa423071c6f32673" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/index-v5/c9/ac/63fb2b7729fc066ffdebd99415054d7af04dfd3efa20db23643ca210fccc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/index-v5/df/f5/f225eda278bf1841cf810eb6553a97a7af19f8f168b370550a79f82c2d81" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/terser-webpack-plugin/index-v5/f6/e3/cb7fcc7fef44f6b4c92aaeee0f544f03490f34635727d8ba6497e5d9485b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/004c1aecf030a7b466f85b6084afb4a1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/0102794bc79d1aec7298edee405d00b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/01138c78bfa880c8d773ef69b25dd592.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/02b6894a45bdbf65c5210989801b2a86.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/030cbd8db3f673b8cff1cdfae77b97e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/034e006d0641cd2f8e78c4ba294e2649.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/050dc0f3104d1399c711995d2331ef43.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/08dfaf1c500aabcc9c8676aba6cc118f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/0c5f7a745017c26bd1be432f39060334.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/0fe5c7c67e123a7858b4c3f8ffa8db1a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/0fef47dc5875255125f59d5abe0c7c34.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/10c550ef21ca513dc3808ae0e94b819e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/11f23a7fce058951712f67771282c8ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/13b6823adac896ae56b00a3c8b0269c9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/14292f5e2f39176227e5852de336733e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/160e2a030d8218a9d7d523f98d52b4b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/17d78eea5e9c1454dbb27f1145bae035.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/1932ab8b7cc2a17ff953d45c99999b83.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/1abc424ea70ec093c520b7687c0bc840.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/1e7b580eba454901feb27cd1a5db5f5d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/1f7b582ad0ec02f004b3fc6f911ca95c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/202e530ef3a5851f1b10a95db89ade1e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2038201dbec851cd4ae58b343c11eada.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/204eb3840b80fc47991e8fcd8238dbb7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/213b7300e62c472af0dad0078961b3ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2185d6e2e70be977457e6ef14d1aff01.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/226de15d080abdd327e55fe19e666144.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/22bb2ce267ba7e33d0388164306b7196.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/231b0d1183fed28e6ad6d5e98c171d80.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2323f86e9e3055c80983c3678bdd2bad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/249818efc5aed8650999f673806c4817.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/24f3889f1cf60b98622bbbaaa155111a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2560af0ec2f8481b07caacb2845a2a2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2697919cd5d8a55ae1faafab7d6e6606.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/27b8088b0de46a497512406131f0529c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/285e9ea1ef5af295a603a4d3fa8432fa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2870f0cdd9c5d1985d1280e0172d95ae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2934ba0e9ca1ff595b6bdbb5f7a44cab.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/29d3deba8c7fc3b1c79a1bb6ae945b2f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2a02beba5547e1b83949bc08c4cb0f89.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2ebe0210ff620b06a884d5a50a8deb45.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2f9d61b39166c43fac919e8a54f30f00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/2fd998e53f0388a8a8057e96402df93a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/3183ef980f0e393b1308525e18bd43f9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/364c3ec69ea3e2817c7bed13a307f90d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/37a2f4115353603037ae8002dc0b700e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/395138b81e5188d9fabc46939dd72204.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/398c18b17cbf7ca68bd25811dce95146.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/39ac1bd3aeafa3ea07a03456917cc397.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/3b8b6093f10f21190d4172d6cbac91a2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/3c51c3a2d6d27a651853338f1e448680.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/3ca7962eda46841a8212663f8c840356.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/3d3f3d6415d5cfcefefcde142d35279b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/3e8240579a7289881e75138dcfce7991.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/3f05cdd7bd6243be8d9ed52d0660c92e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/40bae814156423289de5f34d875cf413.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4137d933df00101f8bfd7fd0809842c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/42fd4eb5b3acdb71a1471d880ebb264f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/438fbd62b5f4b0f0a1ecd657faafb1c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/43944051b2b25e491a648ab6e51e80da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/445829bba311087896de978c868597c7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/45ccf7bdcbbd23ef816a9a75e5ddacf2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/464eb5ff0f421faa835e7b72feb57394.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/47dd59086375701d821b3c56207856aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/47e8208eefffaf4d08c31a0cd46bc6f2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/483dd1892f3c6947da6caff6e08db110.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/49451310f725779360d5f38cc3de6751.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4999192e63a066c31e1011c55cb6d65d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4a40fd76abaaa14e9c6dcb2fba7edb18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4a9712e0c67767600189d56a146f1b0d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4ba7b5aa7adb810389e304eacc0ae8e8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4bb33cb68464e049a74b147af7b88f0c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4cc26be31effb939d5c3aa512f62b232.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4cc7304676465b4228c216f13740eb2b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4d409bf776e937e5feecfc95e614795a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4e7c1681333fa2cdb255f3a8d85f9a1b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/4f7de80cca9ae5609ba509ad8c1dae66.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/540e432b20289ed07b4910dba10e3259.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/545c95a3026112650d93042652a9c365.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/565520e5733236babe54e5ba452069a2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/56768d5f9e7e76ab13a670fd1477a806.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/56b6e2e42d3b4c6c66ec2ddea10b99c7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/588e05322e5c367165bdb34ee29a47cc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/58ec21d7558512b0fafe861f7388ff6f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/5a1017ca1bd05a45fd83d933939d111e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/5b9b8fda4ef154ff5693b3cbd952bd9c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/5bfc13789e457b416937d9f9fbaadbac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/5d826a8aca5907287823e90b68fbeb94.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/5ecb1bf4e56b3443f9466b29fe51f567.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6017efe399251076cfbf8ae02065e9f5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/60499ae916121e8914fd1f1785907a55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/61e39388ca7becb1ef997dd3573a6f03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/61f97924bad5bafbc83b4a44f1e8aa05.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6211fd23186857f282b0f41e65c00cae.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6260688517cd35555f86c7378a0df498.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6270847af4652750301346512fe3c233.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/63ccb3fb7fa08cb3c79ad7460a89c0bd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/652cb6fd2cdda91663d48b32e314cbea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/67497599fa2f4be1b5b30e66ce1df119.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6750ecb7b03dbb9adb54368ca78e6c30.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/682dbf5bc7754afb4ac5db60a6271bb5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6925115c9140180dbc6aec32cc5bccc6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/696fccc7ec9a2f15419ff3827881d6db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6b5f19e856ebfcb3b1380f65b1bfc6a2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6b9585a80c93ce11d15302b5831d6cc8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6c13ea1fc4eeb5d3fcbe7a5e3bc1e416.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6d225fd71a6faefebb87e24fceffe78a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6d70a27e4ba876a1da079114978b6d3b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6efd0f60b91dbd0b3750804758749667.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/6f8604023d5dd87193a783bcda3d2e35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/7043daef3f70cb6b65ef836e341e5dbe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/707476571b0891ec0a21522d0ad43ef9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/723ae532ab45b9c5128fe0c85d220259.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/725ee493f8a2d6e89523ae7507f2bef5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/7386301115fe23ee41e73a0800cc02e3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/7562fc2f80371811e2449f14d59ec92e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/75690ba8e10aa47b244f5d704d90374a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/766e5f0d434d95efe8a4966bf1baffb1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/771c3138cfe170f4ebb22609195c0f51.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/7753eb3dd74cbcb523c35c801a6f3622.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/78330c4b872c0c9b6517a5e4cbc4364c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/788b7b2dac3e3d7db11414c38a34ac89.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/7950b15d416557947c84dcdd88fd1f19.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/797f3f8b5bbda115aa56ae6df7dc53e6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/79a539410eb11d98695d4a60fc198b2a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/7b7f9046359a21f6731e610c496fa386.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/7e1bebc0913668bece1c1a3b73d510b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/7f12db4ad165479e94a647f36a3e0fa2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/7f37d815c15a7aa7249cbca754966001.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/803438b06a604b7da2d8947df91d4e6f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/80ce6097647584eca74b91aa511703fd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/8251766c8822e80ac29d0734928d8120.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/8260a02d46933eea339f64fb6579a1dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/826a4c377cc874f398acea47692afe5e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/83fb069fb34dd6c7820f3bf181fe7001.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/8498bc73c8f8793c07e122f567011f83.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/8518fb8eaa2bc3b98c95f0b7c5146190.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/884e85004faaa10b0be85bc00502c4e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/8a8ef1414386cf3f4232d007bbd9a41e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/8aff7bb32ee354ef26b84ed8d94d8c28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/8e3ad4dfff470d13bb0d276c1fc63201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/8f97f408c99840e1c0d665fb54ab3383.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/8fab5876557bb81a8b67828a0d3d365c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/9007b2aaeea3cf93427b1bf014906390.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/9026fd7530dc725233f09c3139cb1622.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/90473b48457a65fc0b162e2e16a123d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/90b2b6d6628c89ca1c98ab72890f53b1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/92847a91124aaf74c65b1fe63e9b7e09.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/92c9f2873c5d5d1983f664fef68433b2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/92f4794dfd45544159a33b3d3f6ea3de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/949ce5a58c66c3aa14e6084ca6968ff3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/951b8737f06d7dd5a2c7d6467443c586.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/96caa3deac7489aef604366d1b14e987.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/98316e3ce36142a16302c6ce7d9343da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/99ed22f886a4b4a5f0bcef6a1f9d4b24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/9abba1858a7b63a7f94bb23c1a4a5a28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/9bd57518b1212708f8c1b4078ae0a636.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/a0f5ada5c2ed1e79f7dc05f505df2508.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/a1171ef288712b2259e4c51418f04c77.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/a164ef931b41b3d7bd36064d7f0ae14c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/a1c937c7bd4762bcfae07d557522ed60.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/a2f7ffbeed6068ce2cc52363842ae942.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/a43f97300206d90ab61d6d1d5f1144c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/a5b6ea9c7acc7a5fe15c4878800ae24f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/a6f30a6a8116d0c1fd25b0d21edd937a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/a7e4428ff150036f447d03d0c634e679.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/abe62f75efb9bb8eed33df1ecbfbf0e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/af407dcf3cad7b4c7ffbbdf9c09ec866.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/b0d8301c57aca41bea7ed7a734e3c49e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/b1382549105f3071d38d9f204d4aa8ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/b2758089363a3979f8cb97c425825b54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/b322e95513a18aa4c87e5d141b617104.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/b377b74333545bf971ef74b06dd2783d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/b47d735b0cc71b04f0a08b889e5e4694.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/b5e7572eea6be50b9f326c7e54487c7e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/b63620a9f1d30afb17938e0860822fea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/b6bd0d941425211d06f96d8fff1e1d1b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/bb174f718bfb7837a779fd9887700757.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/bb57d3dc19b1cd984a7159093987a1b2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/bbc89ae5413f889143cc704fcc7fa24e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/bd331322be27c73896d27cc70aaeb483.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/bd522c4c5632b4f80a60d4bc45e0ecb6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/bdc16306ba0af0e0d396976e037b586d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/be61fa899e8800107dcdcd3f925a3c84.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/c17847d7a274673490ad78ed787ad186.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/c1d534e6914fa62e73f4db877a695cf8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/c347902720d101152ea00172a9334406.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/c4759cb3959364e47c89db066a30bc32.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/c4b49dcc12ad8efa037e97f01c47ece1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/c55eb1d8228b1c6e4de0d5e79695b8b6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/c6133241a4c1ea7b0f039822a65df35a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/c777b65ac003aa562d037045736ba1e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/c7d9f75fa1a2820765abebee3ef50999.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/cb815e352bda38c0e3ba43892bdba9ca.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/cb99f354c0ebb608310cb70c20d31ce4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/cd02b021994cb6f49cd36cad02d7304c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/ce66ce1c092e94861a33186e1484e372.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/d08aef492b4a39669cacd5662d38e48f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/d143ec8928f8798b6de38f80bd015e6d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/d370f8a32cf4a82769d8b7447eb5784c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/d4be7fe6273c37b7be3e0b77091f1316.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/d5400807d60193f1a868d4f3ca586cf3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/d5be9ae69ef0ceec0b710324c1642ecb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/d9770b748c6bc90735899bcad885dbac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/d98cc8fc29f1c5f483e264c92176f7ed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/dbe3aace0508369e725fdb37960ae03c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/dc112ca6865d4ed1b756746235c6ae93.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/dc3e5adc9b74a97748d42d0014ce8bfd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/dd4c162fc7f9a3cab4a077cd77efbb68.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/dd9dd277b92939ca75743838da8647cf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/de2e879a42fb24a6065b759b30ff1501.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/df46078f8d47ee3bad3b95cb85e725f0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/e29f743ad3aed3226417da073d6ba30f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/e3137b6f2fce327b7353bb3131dd7f4f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/e35ab44ffbeefa5860a808a9f0dff2d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/e50933d1780f83086708f06b4f904021.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/e54a2d4b9d36a210e05f6a8a67891e76.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/e56e9fed09d10708bb82b8238f7a2b58.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/e8ac47069c364d395a092df7530923fc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/e9258007a4e077de773c0a30cb80fe77.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/e945426395d58a5e8db808ca193b5c05.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/ea5a2dd86f77ec81e4eee1c178bf5c94.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/ea869da6a1b40c3406ba2dea9ae265b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/ebd3d7d9d6d8bb3000f2cbf89665096c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/ecf82d8ad898b8396bb57c4b0441cea5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/ed5353d1301a495697c72b23fd167fac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/ed537df04ef37a8b82c1e31d62eb952f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/edac63df1e46599ccdf4f3c64d584856.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/ee2c87822f69d0665132f14a01bfbd47.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/ee2fcbfcc8aa0e197e529a841475f1ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/efcf9af12b544fafbbdb9b1af9f801b0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f0b94903cfa814d1e15588be04862736.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f0ce6a2ed2b920aedb845cb6483d3390.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f18dd10d4cf6e565fbb842fbfa74db45.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f29e7cf4354d327dabb5701075e99db6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f39028f5877b92ad091666776ea4982e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f52e601bb637f47b65fc63f24a966051.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f53b5d8ff363ef6a31ea4f0099e71caa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f5f2695316b31981083f821f06f2ffed.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f67c695418954ee422f7459604e0956f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f747ac58a48eec46a3f92511d107d771.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f75ee65f91363cd75540d91b931e495f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f7ce744494907b9941bbd5866592350f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/f970a46f70e3b3b82abfb32530b161b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/fad6515c2ae04aab329a24c530cbd848.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/fe2c603e384599211261b9be193e017c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/fe778da4b9ae0235f2f36b2bdd9431e5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/fe86969e5931dc42ace352c177149059.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/feba5dbce4800c6e7dfc1bcf2d4428ff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/node_modules/.cache/vue-loader/fec48cc45ccd549de3ae91b2687bbbb4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/src/computer/components/myInformation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/src/computer/components/two.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/src/phone/components/main/tuijian.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yiban-app/vue.config.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,7 +472,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
+            <state relative-caret-position="264">
               <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -39,7 +484,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="110">
               <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
@@ -51,8 +496,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/computer/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1034">
-              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+            <state relative-caret-position="1122">
+              <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
               <folding>
                 <element signature="n#style#0;n#el-carousel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#el-button#0;n#router-link#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -74,7 +519,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/computer/headTitle.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="462">
               <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -89,7 +534,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/phone/main/first.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="352">
               <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#HappyScroll#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -100,10 +545,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/phone/main/active.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
+            <state relative-caret-position="748">
               <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -123,11 +568,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="66">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -207,7 +652,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -229,7 +674,18 @@
             <path>
               <item name="yi-wec" type="b2602c69:ProjectViewProjectNode" />
               <item name="yi-wec" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yi-wec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yi-wec" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yi-wec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yi-wec" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yi-wec" type="b2602c69:ProjectViewProjectNode" />
@@ -294,12 +750,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/yi-wec/dist/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="sss.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/yi-wec/src/phone/main/sss.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.sss.html" />
       </list>
     </recent_temporary>
@@ -330,17 +790,19 @@
       <workItem from="1554369829354" duration="602000" />
       <workItem from="1554387598407" duration="14000" />
       <workItem from="1554396360683" duration="304000" />
+      <workItem from="1556390551139" duration="697000" />
+      <workItem from="1556440885663" duration="595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85229000" />
+    <option name="totallyTimeSpent" value="86521000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="10" y="20" width="1346" height="688" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14732143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14678898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -354,7 +816,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16229509" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26173285" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -544,30 +1006,9 @@
     <entry file="file://$PROJECT_DIR$/debug.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/phone/main/sss.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="946">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/phone/main/cjcg.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
+        <state relative-caret-position="264">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -577,7 +1018,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
+        <state relative-caret-position="110">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
@@ -587,8 +1028,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/computer/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1034">
-          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        <state relative-caret-position="1122">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
           <folding>
             <element signature="n#style#0;n#el-carousel#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#el-button#0;n#router-link#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -608,7 +1049,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/computer/headTitle.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="462">
           <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -621,7 +1062,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/phone/main/first.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="352">
           <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#div#0;n#HappyScroll#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -633,7 +1074,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/phone/main/active.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
+        <state relative-caret-position="748">
           <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding>
             <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
@@ -649,6 +1090,27 @@
             <element signature="n#style#0;n#span#1;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phone/main/sss.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phone/main/cjcg.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
