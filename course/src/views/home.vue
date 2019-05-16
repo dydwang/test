@@ -1,7 +1,7 @@
 <template>
     <div>
         <el-container>
-            <el-aside width="200px" class="slide-box">
+            <el-aside width="160px" class="slide-box">
                 <div class="logo-box">
                     <i class="iconfont icon-logo"></i>
                 </div>
@@ -11,7 +11,7 @@
                         background-color="#545c64"
                         text-color="#fff"
                         active-text-color="#ffd04b"
-                        style="overflow: hidden;width: 200px;background: #545c64;"
+                        style="overflow: hidden;width: 160px;background: #545c64;"
                 >
                     <span v-for="(item,key) in menuList" >
                         <el-menu-item v-if="item.child.length ==0"    :index="''+key" @click="navActive(item,key)" >
@@ -127,14 +127,14 @@
         padding: 10px;
     }
     .slide-box {
-        width: 200px;
+        width: 160px;
         background: #545c64;
         min-height: 100vh;
         overflow: hidden;
     }
 
     .logo-box {
-        width: 200px;
+        width: 160px;
         height: 60px;
         text-align: center;
         line-height: 60px;
@@ -143,7 +143,7 @@
     }
 
     .logo-box i {
-        width: 200px;
+        width: 160px;
         height: 60px;
         line-height: 60px;
         text-align: center;
