@@ -3,11 +3,8 @@ import Router from "vue-router";
 import Home from "./views/home.vue";
 import HeadBox from "./phone/components/header/Header.vue";
 import Menu from "./phone/components/main/menu.vue";
-import tuijian from "./phone/components/main/tuijian.vue";
 import newActive from "@/computer/newActive";
 import pActive from "./phone/components/main/pActive";
-import myInformation from "@/computer/components/myInformation"
-import two from "@/computer/components/two"
 
 Vue.use(Router);
 
@@ -24,16 +21,8 @@ export default new Router({
             name: "home",
             component: Home
         },
-        {
-            path: "/myInformation",
-            name: "myInformation",
-            component:myInformation
-        },
-        {
-            path: "/two",
-            name: "two",
-            component:two
-        },
+
+
         {
             path: "/HeadBox",
             name: "header",
@@ -52,11 +41,6 @@ export default new Router({
             path: "/pActive",
             name: "pActive",
             component: pActive
-        },
-        {
-            path: "/tuijian",
-            name: "tuijian",
-            component: tuijian
         },
 
     ]

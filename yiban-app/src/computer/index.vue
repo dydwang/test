@@ -1,7 +1,6 @@
 <template>
   <div>
       <headTitle></headTitle>
-    <router-link to="two" >two</router-link>
     <el-carousel
       indicator-position="outside"
       style="margin-top: 90px;margin-left: 250px;
@@ -11,11 +10,7 @@
         <h3>{{ item }}</h3>
       </el-carousel-item>
     </el-carousel>
-      <router-link to="newActive">
-        <el-button type="primary" icon="el-icon-circle-plus-outline" style="position:fixed;left:1080px;top: 130px;">
-      新建活动
-        </el-button>
-      </router-link>
+
     <condition  @transferRandom="getSport" @timeRandom="getTime" ref="son"></condition>
     <div
       style="margin-top: 20px;
